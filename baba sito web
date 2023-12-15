@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sito Musicale</title>
+</head>
+<body>
+
+    <!-- Pagina Principale (Homepage) -->
+    <section class="homepage">
+        <header>
+            <h1>Benvenuti nella Musica!</h1>
+        </header>
+        <p>Una piattaforma dedicata alla musica e agli strumenti musicali.</p>
+        <!-- Aggiungi altre informazioni o contenuti qui -->
+    </section>
+
+    <!-- Pagina Guide e Tutorial -->
+    <section class="guide">
+        <header>
+            <h2>Guide e Tutorial</h2>
+        </header>
+        <p>Esplora le nostre guide e tutorial su come suonare diversi strumenti musicali.</p>
+        <!-- Aggiungi contenuti specifici alla guida e tutorial -->
+    </section>
+
+    <!-- Pagina Recensioni -->
+    <section class="reviews">
+        <header>
+            <h2>Recensioni di Album e Canzoni</h2>
+        </header>
+        <p>Scopri le nostre recensioni su album e canzoni popolari.</p>
+        <!-- Aggiungi contenuti specifici alle recensioni -->
+    </section>
+
+    <!-- Pagina Interviste -->
+    <section class="interviews">
+        <header>
+            <h2>Interviste a Musicisti Locali</h2>
+        </header>
+        <p>Leggi le nostre interviste esclusive con musicisti locali e insegnanti di musica.</p>
+        <!-- Aggiungi contenuti specifici alle interviste -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Sito Musicale. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>
+File CSS (style.css):
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
